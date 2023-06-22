@@ -12,7 +12,7 @@
 :root {
     --sidebar-weight: 50px;
     /* Heading height variable*/
-    --heading-height: 30em;
+    --heading-height: 15em;
 }
 
 /* You can add global styles to this file, and also import other style files */
