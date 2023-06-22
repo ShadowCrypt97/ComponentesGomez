@@ -1,0 +1,31 @@
+/* navigation */
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #bada55;
+    border-right: var(--sidebar-weight) solid #bada55;
+    box-shadow: 4px 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+nav ul {
+    width: 14em;
+    list-style-type: none;
+    margin: 0;
+    padding: 1em;
+}
+
+nav a:link,
+nav a:visited {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    line-height: 2.5em;
+    text-indent: 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    outline: 0 none;
+}

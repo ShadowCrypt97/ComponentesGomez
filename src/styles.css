@@ -1,1 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+:root {
+    --sidebar-weight: 50px;
+    /* Heading height variable*/
+    --heading-height: 15em;
+}
+
 /* You can add global styles to this file, and also import other style files */
+p {
+    font-weight: bolder;
+}

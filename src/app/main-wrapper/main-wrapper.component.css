@@ -1,0 +1,8 @@
+main {
+    position: relative;
+    padding: 1rem;
+    background-color: aqua;
+    margin-left: calc(256px + var(--sidebar-weight));
+    height: calc(100vh - var(--heading-height));
+    overflow: auto;
+}
